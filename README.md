@@ -1,24 +1,24 @@
-# Seminar Materials
+# 2025 Customer Data Protection Training Materials
 
 Seminar and training materials published as web-friendly slide sites.
 
 ## Published Site
 
-- [View the current training site](https://leekwangseon.github.io/seminar-materials/)
+- [View all materials](https://leekwangseon.github.io/seminar-materials/)
 
 ## Current Materials
 
 | Title | Web | PDF | PPTX |
 | --- | --- | --- | --- |
-| 고객 데이터 보호 및 안전한 처리 교육 | [Open site](https://leekwangseon.github.io/seminar-materials/) | [PDF](./%EA%B3%A0%EA%B0%9D_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B3%B4%ED%98%B8_%EB%B0%8F_%EC%95%88%EC%A0%84%ED%95%9C_%EC%B2%98%EB%A6%AC_%EA%B5%90%EC%9C%A1.pdf) | [PPTX](./%EA%B3%A0%EA%B0%9D_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B3%B4%ED%98%B8_%EB%B0%8F_%EC%95%88%EC%A0%84%ED%95%9C_%EC%B2%98%EB%A6%AC_%EA%B5%90%EC%9C%A1.pptx) |
+| 2025년 고객 데이터 보호 및 안전한 처리교육 1회차 교육 문서 | [Open site](https://leekwangseon.github.io/seminar-materials/2025-customer-data-protection-session-1/) | [PDF](./2025-customer-data-protection-session-1/source.pdf) | - |
+| 2025년 고객 데이터 보호 및 안전한 처리교육 2회차 교육 문서 | [Open site](https://leekwangseon.github.io/seminar-materials/2025-customer-data-protection-session-2/) | [PDF](./2025-customer-data-protection-session-2/source.pdf) | [PPTX](./2025-customer-data-protection-session-2/source.pptx) |
 
 ## Repository Structure
 
-- `index.html` - web slide viewer for the current material
-- `slides/` - rendered slide images
-- `styles.css` - site styling
-- `script.js` - slide navigation
-- `*.pdf`, `*.pptx` - downloadable source materials
+- `index.html` - material list landing page
+- `2025-customer-data-protection-session-1/` - 1st session document viewer
+- `2025-customer-data-protection-session-2/` - 2nd session slide viewer
+- `source.pdf`, `source.pptx` - downloadable source materials inside each session folder
 
 ## Adding Future Seminar Materials
 
@@ -26,12 +26,11 @@ For future materials, add each seminar as its own folder so the repository stays
 
 ```text
 seminar-materials/
-  customer-data-safety-training/
+  2025-customer-data-protection-session-1/
     index.html
-    slides/
+    pages/
     source.pdf
-    source.pptx
-  another-seminar/
+  2025-customer-data-protection-session-2/
     index.html
     slides/
     source.pdf
