@@ -10,11 +10,13 @@ Seminar and training materials published as web-friendly slide sites.
 
 | Title | Web | PDF | PPTX |
 | --- | --- | --- | --- |
+| 2026년 고객 데이터 보호 및 안전한 처리교육 1회차 교육 문서 | [Open site](https://leekwangseon.github.io/seminar-materials/2026-customer-data-protection-session-1/) | - | - |
 | 2026년 고객 데이터 보호 및 안전한 처리교육 2회차 교육 문서 | [Open site](https://leekwangseon.github.io/seminar-materials/2026-customer-data-protection-session-2/) | [PDF](./2026-customer-data-protection-session-2/source.pdf) | [PPTX](./2026-customer-data-protection-session-2/source.pptx) |
 
 ## Repository Structure
 
 - `index.html` - public material list landing page
+- `2026-customer-data-protection-session-1/` - public 1st session document viewer
 - `2026-customer-data-protection-session-2/` - 2nd session slide viewer
 - `source.pdf`, `source.pptx` - downloadable source materials inside the session folder
 
