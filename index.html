@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>고객 데이터 보호 및 안전한 처리 교육</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">교육 자료</p>
+      <h1>고객 데이터 보호 및 안전한 처리 교육</h1>
+    </div>
+    <nav class="actions" aria-label="자료 다운로드">
+      <a href="./고객_데이터_보호_및_안전한_처리_교육.pdf" download>PDF</a>
+      <a href="./고객_데이터_보호_및_안전한_처리_교육.pptx" download>PPTX</a>
+    </nav>
+  </header>
+
+  <main class="viewer">
+    <section class="slide-frame" aria-live="polite">
+      <img id="slideImage" src="./slides/slide-01.png" alt="슬라이드 1">
+    </section>
+
+    <section class="controls" aria-label="슬라이드 제어">
+      <button id="prevButton" type="button" aria-label="이전 슬라이드">
+        <span aria-hidden="true">‹</span>
+      </button>
+      <div class="status">
+        <strong id="slideNumber">1</strong>
+        <span>/</span>
+        <span id="slideTotal">16</span>
+      </div>
+      <button id="nextButton" type="button" aria-label="다음 슬라이드">
+        <span aria-hidden="true">›</span>
+      </button>
+    </section>
+
+    <section class="thumbs" id="thumbs" aria-label="슬라이드 목록"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
